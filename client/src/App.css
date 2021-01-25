@@ -1,0 +1,26 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.searchSection {
+    width: 80%;
+    margin: 0 auto;
+}
+.cardWrap {
+    width: 80%;
+    margin: 0 auto;
+}
+.cardContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+.specialBoldItalic {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.specialBold {
+    font-size: 18px;
+    font-weight: bold;
+}
