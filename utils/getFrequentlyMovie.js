@@ -3,10 +3,12 @@ const cache = require("memory-cache");
 const getFrequentlyMovie = (film_id) => {
     let movies = cache.get("allMovies");
     if (movies) {
-        return (
-            movies.find((item) => item?.films?.film_id === film_id) ||
-            movies.find((item) => item?.id === film_id)
-        );
+        // Fix unexpected token issue, work in dev
+        // return (
+        //     movies.find((item) => item?.films?.film_id === film_id) ||
+        //     movies.find((item) => item?.id === film_id)
+        // );
+        return true;
     }
     return false;
 };
