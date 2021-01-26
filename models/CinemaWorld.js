@@ -15,9 +15,6 @@ const CinemaWorldSchema = new mongoose.Schema(
         synopsis_long: {
             type: String,
         },
-        // duration_mins: {
-        //     type: Number,
-        // },
         images: {
             type: Object,
         },
